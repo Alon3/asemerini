@@ -1,0 +1,12 @@
+@import "../variables/variables_body.scss";
+
+body {
+  background-image: url($bg-image);
+  background-repeat: $bg-repeat;
+  background-size: $bg-size;
+  background-position: $bg-position;
+  background-attachment: $bg-attachment;
+  display: $display;
+  flex-direction: $flex-direction;
+  min-height: $page-min-height;
+}

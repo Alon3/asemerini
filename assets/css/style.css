@@ -1,0 +1,28 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {
+  background-color: aquamarine;
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto;
+}
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

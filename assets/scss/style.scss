@@ -1,0 +1,8 @@
+@import "./variables/variables_style.scss";
+@import "./compoments/_body.scss";
+@import "./compoments/footer.scss";
+
+* {
+  margin: $margin;
+  padding: $padding;
+}

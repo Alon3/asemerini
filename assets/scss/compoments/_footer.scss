@@ -1,0 +1,12 @@
+@import "../variables/variables_footer.scss";
+
+footer {
+  background-color: $footer-bg-color;
+  padding: $footer-padding;
+  text-align: $footer-text-align;
+  margin-top: $footer-margin-top;
+  img {
+    width: $img-width;
+    height: $img-height;
+  }
+}
