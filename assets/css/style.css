@@ -56,42 +56,39 @@ body .form .messageForm {
 body .form .formPlace input {
   width: 90%;
 }
-body p {
-  display: flex;
-  border: 2px solid black;
-  width: 320px;
-}
-body .messageContact {
-  display: flex;
-  margin-left: 100px;
-  margin-bottom: 20px;
-}
-body .messageContact p {
-  width: 400px;
-  margin-bottom: 20px;
-}
 body .logoContact {
   display: flex;
   margin-right: 100%;
 }
-body .mapContact {
-  margin-left: 60%;
-  display: flex;
-}
-body .mapContact iframe {
-  display: flex;
-  width: 500px;
-  height: 450px;
-}
-body .mapContact p {
-  margin: 10px 20%;
-}
-body .nosotrosContact {
+body #principal-content .nosotrosContact {
   margin: 30px 0;
   margin-left: 300px;
 }
-body .lista-productos {
-  margin-top: 100px;
+body #principal-content .nosotrosContact .messageContact {
+  display: flex;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+body #principal-content .nosotrosContact .messageContact p {
+  display: flex;
+  border: 2px solid black;
+  width: 320px;
+}
+body #principal-content .nosotrosContact .mapContact {
+  margin-left: 60%;
+  display: flex;
+}
+body #principal-content .nosotrosContact .mapContact .ubicacion {
+  margin: 10px 20%;
+}
+body #principal-content .nosotrosContact .mapContact mapa {
+  display: flex;
+  width: 1000px;
+  height: 450px;
+}
+body #principal-content .nosotrosContact .mapContact .dire {
+  width: 400px;
+  margin-bottom: 20px;
 }
 
 footer {
