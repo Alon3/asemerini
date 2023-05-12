@@ -9,4 +9,107 @@ body {
   display: $display;
   flex-direction: $flex-direction;
   min-height: $page-min-height;
+
+  .lista-productos {
+    margin-top: 100px;
+  }
+  .pdf {
+    display: flex;
+    width: 50%;
+    height: 1000px;
+    margin: 0 auto;
+  }
+
+  .qr {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    img {
+      margin-top: 27px;
+      margin-left: 15px;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+
+  .carousel-inner {
+    img {
+      margin: 100px auto;
+    }
+  }
+
+  .form {
+    margin-top: 50px;
+
+    input {
+      margin: 5px 0;
+      margin-left: 5px;
+    }
+
+    .messageForm {
+      margin-left: 5px;
+      margin-top: 5px;
+      width: 90%;
+      height: 500px;
+    }
+
+    .formPlace {
+      input {
+        width: 90%;
+      }
+    }
+  }
+
+  p {
+    display: flex;
+    border: 2px solid black;
+    width: 320px;
+  }
+
+  .messageContact {
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    p {
+      width: 400px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .logoContact {
+    display: flex;
+    margin-right: 100%;
+  }
+
+  .mapContact {
+    margin-left: 60%;
+    display: flex;
+    iframe {
+      display: flex;
+      width: 500px;
+      height: 450px;
+    }
+    p {
+      margin: 10px 20%;
+    }
+  }
+
+  .nosotrosContact {
+    margin: 30px 0;
+    margin-left: 300px;
+  }
+
+  .lista-productos {
+    margin-top: 100px;
+  }
 }

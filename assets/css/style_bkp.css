@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .pdf {
   display: flex;
   width: 50%;
@@ -28,6 +44,10 @@
   border-radius: 50%;
 }
 
+.principal-content .form {
+  margin-top: 50px;
+}
+
 .form input {
   margin: 5px 0;
   margin-left: 5px;
@@ -42,10 +62,6 @@
 
 .form .formPlace input {
   width: 90%;
-}
-
-.principal-content .form {
-  margin-top: 50px;
 }
 
 #principal-content p {
@@ -80,10 +96,22 @@
   margin-left: 300px;
 }
 
-#principal-content .lista-productos {
-  margin-top: 100px;
+footer {
+  background-color: aquamarine;
+  padding: 1em 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
 }
 
 .carousel-inner img {
   margin: 100px auto;
+}
+
+#principal-content .lista-productos {
+  margin-top: 100px;
 }
