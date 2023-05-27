@@ -1,9 +1,10 @@
 @import "./variables/variables_style.scss";
 @import "./compoments/_body.scss";
-@import "./compoments/footer.scss";
-@import "./compoments/header.scss";
+@import "./compoments/_footer.scss";
+@import "./compoments/_header.scss";
 
 * {
   margin: $margin;
   padding: $padding;
+  font-family: $font;
 }
